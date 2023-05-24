@@ -1,13 +1,13 @@
 def guess_number():
-    print("Think of a number between 0 and 2048. I will try to figure it out!")
-    low_num = 0
+    print("Think of a number between 1 and 2048. I will try to figure it out!")
+    low_num = 1
     high_num = 2048
 
     while low_num <= high_num:
         guess = (low_num + high_num) // 2
-        print("Enter 'l' if your number is less, 'g' if greater, or 'e' if it's equal.")
+        print("Is your number", guess, "? (Enter 'l' if your number is less, 'g' if greater, or 'e' if it's equal)")
         response = input()
-
+        
         if response == 'e':
             print("Yay! I guessed your number.")
             return
