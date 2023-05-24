@@ -1,6 +1,6 @@
 def guess_number():
-    print("Think of a number between 1 and 2048. I will try to figure it out!")
-    low_num = 1
+    print("Think of a number between 0 and 2048. I will try to figure it out!")
+    low_num = 0
     high_num = 2048
 
     while low_num <= high_num:
